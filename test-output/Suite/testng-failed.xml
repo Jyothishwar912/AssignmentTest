@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.interview.automation.appln.scripts.AmazonPageTest">
+        <methods>
+          <include name="initiateReports"/>
+          <include name="generateReports"/>
+          <include name="flipkart_Test"/>
+          <include name="openBrowser"/>
+          <include name="beforeTCExecution"/>
+          <include name="assignment_amazonTest"/>
+          <include name="priceComparision_BothWebsites"/>
+          <include name="closeBrowser"/>
+          <include name="afterTCEcecution"/>
+        </methods>
+      </class> <!-- com.interview.automation.appln.scripts.AmazonPageTest -->
+      <class name="com.interview.automation.appln.scripts.TripadvisorTest">
+        <methods>
+          <include name="initiateReports"/>
+          <include name="generateReports"/>
+          <include name="trip_Advisor_Rating"/>
+          <include name="openBrowser"/>
+          <include name="beforeTCExecution"/>
+          <include name="closeBrowser"/>
+          <include name="afterTCEcecution"/>
+        </methods>
+      </class> <!-- com.interview.automation.appln.scripts.TripadvisorTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
